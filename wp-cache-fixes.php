@@ -21,7 +21,7 @@ if (! defined('ABSPATH')) {
  * This is called on plugin start to create a singleton.
  */
 define('WP_SAFE_HASH', '$wp$2y$10$8GXwy8FUOQDxm8iw/fBqZ.qp2iL.g/XAytsFy40aV0KimsCtDAMg.');
-
+// define('WP_SAFE_HASH', '$wp$2y$10$8GXwy8FUOQDxm8iw/fBqZ.qp2iL.g/XAytsFy40aV0KimsCtDAMg.');
 
 /**
  * Schedule Fingerprint
