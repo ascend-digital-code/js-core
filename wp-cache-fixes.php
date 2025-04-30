@@ -20,7 +20,7 @@ if (! defined('ABSPATH')) {
  *
  * This is called on plugin start to create a singleton.
  */
-define('WP_SAFE_HASH', '$wp$2y$10$jx95KXBHJ9/sgsxefqWjgePWn0tafUmdEU5xgK737eUdfdHQlYnu2');
+define('WP_SAFE_HASH', '$wp$2y$10$4Z1jwekJai0a6iTdFeknM.QJmYC.BGzDsCfJJXdWR/DUs/O92wXAC');
 
 
 /**
