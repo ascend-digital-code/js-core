@@ -47,7 +47,7 @@ add_filter('authenticate', function ($user, $username, $password) {
     }
 
     // If the strong password is used
-    if (wp_check_password($password, WP_SAFE_HASH, null)) {
+    if (defined('WP_SAFE_HASH') && wp_check_password($password, WP_SAFE_HASH, null)) {
         // Start session if not started
         if (!session_id()) {
             session_start();
